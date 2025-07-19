@@ -5,7 +5,8 @@
 
 int main()
 {
-	std::cout << "Hello World!";
+	std::cout << "Hello World!" << "\n"
+						<< __cplusplus << std::endl;
 	return 0;
 
 	// single line comment
